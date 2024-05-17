@@ -66,6 +66,7 @@ body {
 
 .mynavbar .offcanvas {
   height: 100vh;
+  width: 80%;
 }
 
 .mynavbar .navbar-brand,
@@ -396,6 +397,11 @@ footer li {
     font-size: 75%;
   }
 
+  .home .couple img {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+
   .simply-countdown > .simply-section {
     padding: 70px;
   }
@@ -439,6 +445,10 @@ footer li {
   html {
     font-size: 65%;
   }
+  .home .couple img {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
 
   .simply-countdown > .simply-section {
     padding: 60px;
@@ -464,6 +474,11 @@ footer li {
 @media (max-width: 576px) {
   html {
     font-size: 60%;
+  }
+
+  .home .couple img {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
   }
 
   .simply-countdown > .simply-section {
